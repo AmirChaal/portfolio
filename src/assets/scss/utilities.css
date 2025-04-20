@@ -1,0 +1,16 @@
+.sudden-transition {
+  transition: all 1000ms cubic-bezier(0, 1, 0.7, 1);
+}
+.sudden-transition-500ms {
+  transition: all 500ms cubic-bezier(0, 1, 0.7, 1);
+}
+.slow-fast-slow-transition-500ms {
+  transition: all 500ms cubic-bezier(0.8, 0, 0.2, 1);
+}
+.slow-fast-slow-transition {
+  transition: all 1000ms cubic-bezier(0.8, 0, 0.2, 1);
+}
+
+.shadow-intense {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
